@@ -6,7 +6,7 @@
 ## EDA 및 전처리 
 원래는 직접 그래프를 그려보고 feature-target 관련성이나 heatmap, countplot 같은 것들을 그려보면서 했으나
 이번에 공유 코드에서 pandas_profiling이라는 좋은 라이브러리를 발견해 이용해봤다.
-'''python
+''' python
 import pandas_profiling
 train.profile_report()
 '''
